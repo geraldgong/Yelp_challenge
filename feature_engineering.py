@@ -137,7 +137,7 @@ def business_clustering(df):
     # radius of the earth in km
     kms_per_radian = 6371
     # the minimus distance between two business is 20m
-    epsilon = .02 / kms_per_radian
+    epsilon = .05 / kms_per_radian
     # perform clustering
     db = DBSCAN(eps=epsilon, min_samples=1, algorithm='ball_tree', metric='haversine').fit(np.radians(coords))
     cluster_labels = db.labels_

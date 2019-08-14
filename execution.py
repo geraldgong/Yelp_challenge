@@ -7,8 +7,7 @@ if __name__ == "__main__":
     data_dir = os.getcwd() + '/yelp_dataset'
 
     # run feature engineering
-    data_dir = os.getcwd() + '/yelp_dataset'
     df_business = feature_engineering.main(data_dir, save_data=True)
 
     # run model training
-    model.main(df_business, tune_parameter=False)
+    model.main(df_business, tune_parameter=True)
