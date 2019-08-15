@@ -1,0 +1,14 @@
+\beamer@sectionintoc {1}{Project Description}{3}{0}{1}
+\beamer@sectionintoc {2}{Feature Engineering}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Review and Check-in Information}{4}{0}{2}
+\beamer@subsectionintoc {2}{2}{Enrich Features - population, land area, household income}{6}{0}{2}
+\beamer@subsectionintoc {2}{3}{Location Clustering}{7}{0}{2}
+\beamer@sectionintoc {3}{Machine Learning Model}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{Sampling}{9}{0}{3}
+\beamer@subsectionintoc {3}{2}{Model Selection}{10}{0}{3}
+\beamer@subsectionintoc {3}{3}{Model Training}{11}{0}{3}
+\beamer@sectionintoc {4}{Results and Insights}{12}{0}{4}
+\beamer@subsectionintoc {4}{1}{Performance}{12}{0}{4}
+\beamer@subsectionintoc {4}{2}{Feature Importance}{13}{0}{4}
+\beamer@subsectionintoc {4}{3}{Further Improvements}{15}{0}{4}
+\beamer@sectionintoc {5}{Summary}{16}{0}{5}

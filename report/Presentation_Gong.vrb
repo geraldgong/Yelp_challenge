@@ -1,0 +1,9 @@
+\frametitle{Model Training}
+The sampled training data is passed to lightGBM, and the prediction is made with the testing data. \vspace{1em}
+
+The hyperparameters are tuned with RandomizedSearchCV, with the scoring metric as recall. The function can be activated by assigning  \underline{tune\_parameters=True} while running the code.\vspace{1em}
+
+\begin{lstlisting}
+	# run model training
+	model.main(df_business, tune_parameter=False)
+\end{lstlisting}
