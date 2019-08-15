@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.6.17)  15 AUG 2019 23:35
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.6.17)  15 AUG 2019 23:40
  restricted system commands enabled.
 **Presentation_Gong.tex
 (./Presentation_Gong.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.038 seconds
+luaotfload | main : initialization completed in 0.037 seconds
 (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
 (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
@@ -1038,14 +1038,14 @@ Package rerunfilecheck Info: File `Presentation_Gong.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 19331 strings out of 494291
+ 19327 strings out of 494291
  100000,460012 words of node,token memory allocated
  5205 words of node memory still in use:
    44 hlist, 9 vlist, 3 rule, 28 disc, 7 local_par, 10 math, 136 glue, 23 kern, 
 28 penalty, 333 glyph, 77 attribute, 57 glue_spec, 77 attribute_list, 4 write, 3
 2 pdf_colorstack nodes
    avail lists: 1:2,2:273,3:108,4:140,5:106,6:43,7:1623,8:39,9:257,10:15,11:126
- 22577 multiletter control sequences out of 65536+600000
+ 22573 multiletter control sequences out of 65536+600000
  44 fonts using 3289711 bytes
  56i,17n,55p,783b,553s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmsans10-oblique.ot
@@ -1058,7 +1058,7 @@ pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pf
 b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.p
 fb>
-Output written on Presentation_Gong.pdf (16 pages, 890969 bytes).
+Output written on Presentation_Gong.pdf (16 pages, 890964 bytes).
 
 PDF statistics: 236 PDF objects out of 1000 (max. 8388607)
  181 compressed objects within 2 object streams
