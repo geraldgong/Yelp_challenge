@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.6.17)  15 AUG 2019 23:40
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.6.17)  18 AUG 2019 14:25
  restricted system commands enabled.
 **Presentation_Gong.tex
 (./Presentation_Gong.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.037 seconds
+luaotfload | main : initialization completed in 0.036 seconds
 (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
 (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
@@ -930,59 +930,75 @@ jpg>]
 (./Presentation_Gong.toc) [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 148.
+<business_head.png, id=110, 684.5575pt x 79.29625pt>
+File: business_head.png Graphic file (type png)
+<use business_head.png>
+Package luatex.def Info: business_head.png  used on input line 152.
+(luatex.def)             Requested size: 291.92444pt x 33.816pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 152.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 148.
+LaTeX Font Info:    Try loading font information for U+msb on input line 152.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 148.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 152.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 148.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 152.
  [3
 
-] [4
+<./business_head.png>]
+<review_head.png, id=116, 541.02126pt x 79.29625pt>
+File: review_head.png Graphic file (type png)
+<use review_head.png>
+Package luatex.def Info: review_head.png  used on input line 177.
+(luatex.def)             Requested size: 230.46739pt x 33.77849pt.
+ [4
 
-]
-[5
+<./review_head.png>]
+<checkin_head.png, id=121, 531.9875pt x 83.31125pt>
+File: checkin_head.png Graphic file (type png)
+<use checkin_head.png>
+Package luatex.def Info: checkin_head.png  used on input line 193.
+(luatex.def)             Requested size: 221.24907pt x 34.64851pt.
+ [5
 
-] [6
+<./checkin_head.png>] [6
 
 ] [7
 
 ]
-<Pittsburgh.jpg, id=137, 1509.64pt x 634.37pt>
+<Pittsburgh.jpg, id=140, 1509.64pt x 634.37pt>
 File: Pittsburgh.jpg Graphic file (type jpg)
 <use Pittsburgh.jpg>
-Package luatex.def Info: Pittsburgh.jpg  used on input line 218.
+Package luatex.def Info: Pittsburgh.jpg  used on input line 231.
 (luatex.def)             Requested size: 307.28987pt x 129.1271pt.
  [8
 
 <./Pittsburgh.jpg>]
-<open_close_count.png, id=143, 309.5565pt x 362.5545pt>
+<open_close_count.png, id=146, 309.5565pt x 362.5545pt>
 File: open_close_count.png Graphic file (type png)
 <use open_close_count.png>
-Package luatex.def Info: open_close_count.png  used on input line 239.
+Package luatex.def Info: open_close_count.png  used on input line 252.
 (luatex.def)             Requested size: 138.2795pt x 161.95308pt.
 
-Overfull \vbox (3.76318pt too high) detected at line 239
+Overfull \vbox (3.76318pt too high) detected at line 252
  []
 
 [9
 
 <./open_close_count.png>]
-<roc.png, id=149, 399.1713pt x 292.4526pt>
+<roc.png, id=152, 399.1713pt x 292.4526pt>
 File: roc.png Graphic file (type png)
 <use roc.png>
-Package luatex.def Info: roc.png  used on input line 248.
+Package luatex.def Info: roc.png  used on input line 261.
 (luatex.def)             Requested size: 199.73653pt x 146.34196pt.
 
-Overfull \vbox (0.80592pt too high) detected at line 248
+Overfull \vbox (0.80592pt too high) detected at line 261
  []
 
 [10
@@ -992,22 +1008,22 @@ Overfull \vbox (0.80592pt too high) detected at line 248
  (./Presentation_Gong.vrb) [11
 
 ]
-<confusion.png, id=160, 370.5042pt x 271.4943pt>
+<confusion.png, id=163, 370.5042pt x 271.4943pt>
 File: confusion.png Graphic file (type png)
 <use confusion.png>
-Package luatex.def Info: confusion.png  used on input line 292.
+Package luatex.def Info: confusion.png  used on input line 305.
 (luatex.def)             Requested size: 138.2795pt x 101.32541pt.
 
-Overfull \vbox (1.47665pt too high) detected at line 292
+Overfull \vbox (1.47665pt too high) detected at line 305
  []
 
 [12
 
 <./confusion.png>]
-<importance.png, id=167, 1015.8753pt x 709.2096pt>
+<importance.png, id=170, 1015.8753pt x 709.2096pt>
 File: importance.png Graphic file (type png)
 <use importance.png>
-Package luatex.def Info: importance.png  used on input line 299.
+Package luatex.def Info: importance.png  used on input line 312.
 (luatex.def)             Requested size: 307.28987pt x 214.52844pt.
  [13
 
@@ -1027,25 +1043,25 @@ Package luatex.def Info: importance.png  used on input line 299.
 \tf@snm=\write8
 
 \openout8 = Presentation_Gong.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 340.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 340.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 354.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 354.
 
 (./Presentation_Gong.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 340.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 340.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 354.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 354.
 Package rerunfilecheck Info: File `Presentation_Gong.out' has not changed.
 (rerunfilecheck)             Checksum: C4B7D443E62E0AEF4BAC161EF58BAA70;906.
 )
 
 Here is how much of LuaTeX's memory you used:
- 19327 strings out of 494291
+ 19357 strings out of 494291
  100000,460012 words of node,token memory allocated
- 5205 words of node memory still in use:
-   44 hlist, 9 vlist, 3 rule, 28 disc, 7 local_par, 10 math, 136 glue, 23 kern, 
-28 penalty, 333 glyph, 77 attribute, 57 glue_spec, 77 attribute_list, 4 write, 3
-2 pdf_colorstack nodes
-   avail lists: 1:2,2:273,3:108,4:140,5:106,6:43,7:1623,8:39,9:257,10:15,11:126
- 22573 multiletter control sequences out of 65536+600000
+ 5888 words of node memory still in use:
+   49 hlist, 9 vlist, 3 rule, 35 disc, 8 local_par, 12 math, 152 glue, 26 kern, 
+31 penalty, 384 glyph, 85 attribute, 57 glue_spec, 85 attribute_list, 4 write, 3
+6 pdf_colorstack nodes
+   avail lists: 1:2,2:242,3:105,4:136,5:103,6:42,7:1554,8:39,9:252,10:15,11:119
+ 22585 multiletter control sequences out of 65536+600000
  44 fonts using 3289711 bytes
  56i,17n,55p,783b,553s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmsans10-oblique.ot
@@ -1058,9 +1074,9 @@ pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pf
 b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.p
 fb>
-Output written on Presentation_Gong.pdf (16 pages, 890964 bytes).
+Output written on Presentation_Gong.pdf (16 pages, 915606 bytes).
 
-PDF statistics: 236 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 239 PDF objects out of 1000 (max. 8388607)
  181 compressed objects within 2 object streams
  47 named destinations out of 1000 (max. 131072)
  128 words of extra memory for PDF output out of 10000 (max. 100000000)

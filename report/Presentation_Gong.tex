@@ -124,25 +124,29 @@
 %------------------------------------------------
 \begin{frame}
 \frametitle{Project Description}
-In the business dataset, about 18\% of businesses have closed. 
-\begin{center}
-	\begin{tabular}{|c|c|c|}
-	\hline
-			& open & closed \\
-	\hline
-	Counts	&  158525 & 34084 \\
-	\hline
-	\end{tabular} 
-\end{center}
 
-This project is going to get insights into Yelp's datasets to find the answers to the following questions:
+\begin{figure}
+	\includegraphics[width=.95\textwidth]{business_head}
+\end{figure}
+
+%\begin{center}
+%	\begin{tabular}{|c|c|c|}
+%	\hline
+%			& open & closed \\
+%	\hline
+%	Counts	&  158525 & 34084 \\
+%	\hline
+%	\end{tabular} 
+%\end{center}
+
+In the business dataset, about 18\% of businesses have closed. This project is going to get insights into Yelp's datasets to find the answers to the following questions:
 \vspace{1em}
 \begin{itemize}
 	\item What could be the factors lead to the closure of a business?
 	\item Can we predict if a business will stays open or closes in the near future?
 \end{itemize}
 \begin{block}{Idea:}
-	Take the 'is\_open' (1, 0) feature in the business dateset as the label, collect features to build a binary classification model.
+	Take the \textcolor{blue}{is\_open} (1, 0) feature in the business dateset as the label, collect features to build a binary classification model.
 \end{block}
 
 \end{frame}
@@ -156,10 +160,15 @@ This project is going to get insights into Yelp's datasets to find the answers t
 
 \begin{frame}
 \frametitle{Review Information}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=.75\textwidth]{review_head}
+\end{figure}
 The review data contains unique Id of businesses and users, text comments, comments entry time, stars and votes from other users. This project focuses on numerical data, thus the following features to each business are extracted:
 \vspace{1em}
 \begin{itemize}
-	\item Total number of 'cool', 'funny' and 'useful' votes 
+	\item Total number of \textcolor{blue}{cool}, \textcolor{blue}{funny} and \textcolor{blue}{useful} votes 
 	\item Number of reviews per month
 	\item Duration of reviews in years (i.e. time interval between first time and latest comments)
 	\item Year and month of first and latest comments
@@ -169,6 +178,10 @@ The review data contains unique Id of businesses and users, text comments, comme
 
 \begin{frame}
 \frametitle{Check-in Information}
+\begin{figure}
+	\centering
+	\includegraphics[width=.72\textwidth]{checkin_head}
+\end{figure}
 There are certain discounts to the users if they check-in a business on Yelp, which could be a detector of how much a business devotes to attract customers. The check-in dataset contains business Id and time points of check-in. Time related features are extracted:
 \vspace{1em}
 \begin{itemize}
@@ -329,10 +342,11 @@ Due to the imbalanced datasets, the training procedure tend to overfit the data 
 \frametitle{Summary}
 \begin{itemize}
 	\item Classify businesses in the US with Yelp's data into open and closed with lightGBM
+	\item Review and check-in information are considered
 	\item Information of local residents are introduced according to zipcode
 	\item Businesses are clustered with latitude and longitude 
 	\item An overall accuracy of 94.42\% is achieved
-	\item Due to the imbalance of open and closed datasets, the model has high variance on the closed businesses 
+	\item Due to the imbalance of open and closed datasets, the model has higher variance on the closed businesses 
 \end{itemize}
 \end{frame}
 %----------------------------------------------------------------------------------------
